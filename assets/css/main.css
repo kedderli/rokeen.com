@@ -2,3 +2,68 @@
 	font-family: Roboto;
 	font-style: normal;
 }
+body {
+	font-size: 1.1vw;
+}
+
+
+/* ********** START CONTAINER ********** */
+.container {
+	width: 75%;
+	margin: auto;
+}
+/* ********** END CONTAINER ********** */
+
+/* ********** START HEADER ********** */
+.header {
+	position: relative;
+	background-color: #0E111D;
+	padding-top: 3.05vw;
+	padding-bottom: 3.06vw;
+	overflow: hidden;
+}
+.header-content {
+	position: relative;
+	z-index: 2;
+}
+.header-logo-wrapper {
+	
+}
+.header-logo {
+	width: 1.38vw;
+}
+.header-title {
+	font-size: 2.5em;
+	font-weight: bold;
+	line-height: 3.3vw;
+	color: #fff;
+	margin-top: 3.68vw;
+	margin-bottom: 1.6vw;
+}
+.header-text {
+	font-size: 0.83vw;
+	color: #909EBB;
+	line-height: 1.52vw;
+	margin-top: 0;
+	margin-bottom: 2.63vw;
+}
+.header-button {
+	font-family: Roboto;
+	font-size: 0.83vw;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+	border: 0.0694vw solid #fff;
+	border-radius: 0.27vw;
+	padding: 0.625vw 2.638vw 0.763vw;
+}
+#header-animate {
+	position: absolute;
+	z-index: 1;
+	right: -5%;
+	height: 100%;
+	width: 34.72vw;
+	top: 0;
+	transform: scale(1.7);
+}
+/* ********** END HEADER ********** */
