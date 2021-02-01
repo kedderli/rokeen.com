@@ -1,5 +1,5 @@
 * {
-	font-family: Roboto;
+	font-family: IBM Plex Sans;
 	font-style: normal;
 }
 body {
@@ -67,3 +67,109 @@ body {
 	transform: scale(1.7);
 }
 /* ********** END HEADER ********** */
+
+/* ********** START SECTION ********** */
+.section {
+	padding-top: 2.291vw;
+	padding-bottom: 2.43vw;
+	background-color: #F4F7FB;
+}
+.section-title {
+	font-size: 1.527vw;
+	font-weight: bold;
+	color: #0E111D;
+	margin-top: 0;
+	margin-bottom: 0.902vw;
+}
+.section-text {
+	font-size: 0.83vw;
+	line-height: 1.52vw;
+	font-weight: normal;
+	color: #3B4256;
+	margin-top: 0;
+}
+.partners-wrapper {
+	margin-top: 2.569vw;
+	margin-bottom: 2.847vw;
+}
+.partners-list {
+	display: flex;
+	justify-content: space-between;
+}
+.partners-item {
+ 	width: 13.888vw;
+ 	height: 5.83vw;
+ 	border: 0.0694vw solid #DDE1E6;
+	border-radius: 0.27vw;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.partners-item-link {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.partners-item-image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 1.73vw;
+}
+.contats-list {
+	display: flex;
+}
+.contacts-item {
+	width: 15.27vw;
+}
+.contacts-item-title {
+	 color: #909EBB;
+	 font-size: 0.694vw;
+	 line-height: 0.902vw;
+	 text-transform: uppercase;
+	 margin-bottom: 0.625vw;
+}
+.contacts-item-text {
+	font-size: 0.83vw;
+	line-height: 1.52vw;
+}
+.contacts-item-text a {
+	color: #3B4256;
+	text-decoration: none;
+	font-size: 0.694vw;
+	line-height: 0.902vw;
+}
+/* ********** END SECTION ********** */
+
+/* ********** START FOOTER ********** */
+.footer {
+	background-color: #E9EFF7;
+	padding-top: 1.38vw;
+	padding-bottom: 1.38vw;
+	color: #909EBB;
+	opacity: 0.75;
+	font-size: 0.69vw;
+	line-height: 0.902vw;
+}
+.footer a {
+	text-decoration: none;
+	color: #909EBB;
+}
+.footer-list {
+	display: flex;
+	justify-content: space-between;
+}
+.footer-item {
+
+}
+.footer-ooo {
+	padding-right: 2.08vw;
+	border-right: 0.0694vw solid #909EBB;
+}
+.footer-bank-details {
+	padding-left: 2.08vw;
+
+}
+/* ********** END FOOTER ********** */
+
